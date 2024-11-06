@@ -14,7 +14,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-4 mb-4">
+    <div className="bg-white shadow-md rounded-lg p-4 w-full">
       <h2 className="text-xl font-bold mb-2">{article.title}</h2>
       <p className="text-gray-600 mb-2">{article.description.substring(0, 100)}...</p>
       <div className="flex flex-wrap justify-between items-center text-sm text-gray-500 mb-2">
